@@ -1,0 +1,131 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"location":{"lat":-67.99,"lng":88.99},"accuracy":60,"name":"Pune","phone_number":"9799867676","address":"This is test address","website":"https://google.com","language":"Marathi","types":["Type1","Type2"]}
+HTTP/1.1 200 OK
+Date: Sun, 10 Apr 2022 06:26:40 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "a65856bf25929598e8619af11dd969ea",
+    "scope": "APP",
+    "reference": "02c69120f0d5a4dbad77c43c5066beb502c69120f0d5a4dbad77c43c5066beb5",
+    "id": "02c69120f0d5a4dbad77c43c5066beb5"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"location":{"lat":-67.99,"lng":88.99},"accuracy":60,"name":"Mumbai","phone_number":"9799867676","address":"This is test address","website":"https://google.com","language":"Hindi","types":["Type1","Type2"]}
+HTTP/1.1 200 OK
+Date: Sun, 10 Apr 2022 06:26:40 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "bfedc3a3a2f7b7ff07045ce31f263a15",
+    "scope": "APP",
+    "reference": "10cdcea2ace877d3b6f59a242bf9b1a810cdcea2ace877d3b6f59a242bf9b1a8",
+    "id": "10cdcea2ace877d3b6f59a242bf9b1a8"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=bfedc3a3a2f7b7ff07045ce31f263a15
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=bfedc3a3a2f7b7ff07045ce31f263a15
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 10 Apr 2022 06:26:41 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 221
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-67.99",
+        "longitude": "88.99"
+    },
+    "accuracy": "60",
+    "name": "Mumbai",
+    "phone_number": "9799867676",
+    "address": "This is test address",
+    "types": "Type1,Type2",
+    "website": "https://google.com",
+    "language": "Hindi"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id":"bfedc3a3a2f7b7ff07045ce31f263a15"
+}
+HTTP/1.1 200 OK
+Date: Sun, 10 Apr 2022 06:26:46 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}

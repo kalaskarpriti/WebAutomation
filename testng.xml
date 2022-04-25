@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+		<groups>
+			<run>
+				<include name="Smoke" />
+			</run>
+		</groups>
+	<listeners>
+		<listener class-name="Tranquility.Embrace.Listener" />
+	</listeners>
+
+	<test thread-count="1" name="Test">
+		<classes>
+			<class name="Tranquility.Embrace.CreateUser" />
+			<class name="Tranquility.Embrace.EditSensor"/>
+			<class name="Tranquility.Embrace.login" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
