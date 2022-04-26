@@ -61,7 +61,7 @@ public class CreateUser extends base {
 		user.enterPhoneNumber().sendKeys("+" + data.get(7));
 		user.selectGender().selectByValue("2");
 		user.createUser().click();
-		assertEquals(user.ErrormsgFirstNM(), data.get(1));
+		assertEquals(user.ErrormsgFirstNM(),data.get(1));
 	}
 
 	@Test(priority = 2, groups = { "Regression" })
