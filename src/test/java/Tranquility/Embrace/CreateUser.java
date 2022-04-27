@@ -26,7 +26,6 @@ public class CreateUser extends base {
 
 	@BeforeSuite(groups={ "Smoke", "Regression" })
 	public void stratup() throws IOException {
-		System.out.println("driver in before suite");
 		driver = initializeBrowser();
 		driver.get(seturl);
 		file = new excelutility();
