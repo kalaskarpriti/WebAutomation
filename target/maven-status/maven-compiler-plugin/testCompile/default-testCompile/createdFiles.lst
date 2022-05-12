@@ -1,11 +1,11 @@
 APITestClasses\FallDetected.class
-APITestClasses\Smoke.class
 APITestClasses\PanicButton.class
+APITestClasses\RequestData.class
+Tranquility\Embrace\EditSensor.class
+Tranquility\Embrace\CreateUser.class
+APITestClasses\Smoke.class
 APITestClasses\AddPlaceAPI.class
 APITestClasses\HouseTemp.class
-APITestClasses\RequestData.class
 Tranquility\Embrace\login.class
-Tranquility\Embrace\EditSensor.class
 APITestClasses\MotionTest.class
-Tranquility\Embrace\CreateUser.class
 Tranquility\Embrace\Listener.class

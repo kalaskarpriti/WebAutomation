@@ -1,7 +1,5 @@
 package pojo;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
 public class SensorCommonPojo {
 
 	private long endTimestamp;

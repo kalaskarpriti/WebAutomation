@@ -1,38 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-16T18:22:48 IST" name="APITestClasses.MotionTest" finished-at="2022-04-16T18:23:00 IST" duration-ms="12080">
+  <suite started-at="2022-04-26T20:16:28 IST" name="Tranquility.Embrace.CreateUser" finished-at="2022-04-26T20:16:59 IST" duration-ms="31013">
     <groups>
       <group name="Regression">
-        <method signature="MotionTest.MotionTest(java.lang.String)[pri:0, instance:APITestClasses.MotionTest@175c2241]" name="MotionTest" class="APITestClasses.MotionTest"/>
+        <method signature="CreateUser.alreayExistsEmail()[pri:4, instance:Tranquility.Embrace.CreateUser@217ed35e]" name="alreayExistsEmail" class="Tranquility.Embrace.CreateUser"/>
+        <method signature="CreateUser.emptyPassword()[pri:5, instance:Tranquility.Embrace.CreateUser@217ed35e]" name="emptyPassword" class="Tranquility.Embrace.CreateUser"/>
+        <method signature="CreateUser.invalidFirstname()[pri:1, instance:Tranquility.Embrace.CreateUser@217ed35e]" name="invalidFirstname" class="Tranquility.Embrace.CreateUser"/>
+        <method signature="CreateUser.invalidconfirmemail()[pri:3, instance:Tranquility.Embrace.CreateUser@217ed35e]" name="invalidconfirmemail" class="Tranquility.Embrace.CreateUser"/>
+        <method signature="CreateUser.invalidemail()[pri:2, instance:Tranquility.Embrace.CreateUser@217ed35e]" name="invalidemail" class="Tranquility.Embrace.CreateUser"/>
       </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="CreateUser.invalidFirstname()[pri:1, instance:Tranquility.Embrace.CreateUser@217ed35e]" name="invalidFirstname" class="Tranquility.Embrace.CreateUser"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2022-04-16T18:22:48 IST" name="Command line test" finished-at="2022-04-16T18:23:00 IST" duration-ms="12080">
-      <class name="APITestClasses.MotionTest">
-        <test-method signature="MotionTest(java.lang.String)[pri:0, instance:APITestClasses.MotionTest@175c2241]" started-at="2022-04-16T18:22:48 IST" name="MotionTest" data-provider="getMotionData" finished-at="2022-04-16T18:22:59 IST" duration-ms="10754" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[active]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2022-04-26T20:16:28 IST" name="Command line test" finished-at="2022-04-26T20:16:59 IST" duration-ms="31013">
+      <class name="Tranquility.Embrace.CreateUser">
+        <test-method is-config="true" signature="stratup()[pri:0, instance:Tranquility.Embrace.CreateUser@217ed35e]" started-at="2022-04-26T20:15:28 IST" name="stratup" finished-at="2022-04-26T20:16:28 IST" duration-ms="59646" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MotionTest -->
-        <test-method signature="MotionTest(java.lang.String)[pri:0, instance:APITestClasses.MotionTest@175c2241]" started-at="2022-04-16T18:22:59 IST" name="MotionTest" data-provider="getMotionData" finished-at="2022-04-16T18:23:00 IST" duration-ms="1258" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[inactive]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- stratup -->
+        <test-method is-config="true" signature="setbrowser()[pri:0, instance:Tranquility.Embrace.CreateUser@217ed35e]" started-at="2022-04-26T20:16:28 IST" name="setbrowser" finished-at="2022-04-26T20:16:28 IST" duration-ms="531" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MotionTest -->
-      </class> <!-- APITestClasses.MotionTest -->
+        </test-method> <!-- setbrowser -->
+        <test-method signature="invalidFirstname()[pri:1, instance:Tranquility.Embrace.CreateUser@217ed35e]" started-at="2022-04-26T20:16:28 IST" name="invalidFirstname" finished-at="2022-04-26T20:16:30 IST" duration-ms="2081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidFirstname -->
+        <test-method is-config="true" signature="redirect()[pri:0, instance:Tranquility.Embrace.CreateUser@217ed35e]" started-at="2022-04-26T20:16:30 IST" name="redirect" finished-at="2022-04-26T20:16:32 IST" duration-ms="1331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirect -->
+        <test-method is-config="true" signature="setbrowser()[pri:0, instance:Tranquility.Embrace.CreateUser@217ed35e]" started-at="2022-04-26T20:16:32 IST" name="setbrowser" finished-at="2022-04-26T20:16:32 IST" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setbrowser -->
+        <test-method signature="invalidemail()[pri:2, instance:Tranquility.Embrace.CreateUser@217ed35e]" started-at="2022-04-26T20:16:32 IST" name="invalidemail" finished-at="2022-04-26T20:16:34 IST" duration-ms="1545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidemail -->
+        <test-method is-config="true" signature="redirect()[pri:0, instance:Tranquility.Embrace.CreateUser@217ed35e]" started-at="2022-04-26T20:16:34 IST" name="redirect" finished-at="2022-04-26T20:16:35 IST" duration-ms="1134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirect -->
+        <test-method is-config="true" signature="setbrowser()[pri:0, instance:Tranquility.Embrace.CreateUser@217ed35e]" started-at="2022-04-26T20:16:35 IST" name="setbrowser" finished-at="2022-04-26T20:16:36 IST" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setbrowser -->
+        <test-method signature="invalidconfirmemail()[pri:3, instance:Tranquility.Embrace.CreateUser@217ed35e]" started-at="2022-04-26T20:16:36 IST" name="invalidconfirmemail" finished-at="2022-04-26T20:16:42 IST" duration-ms="6105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidconfirmemail -->
+        <test-method is-config="true" signature="redirect()[pri:0, instance:Tranquility.Embrace.CreateUser@217ed35e]" started-at="2022-04-26T20:16:42 IST" name="redirect" finished-at="2022-04-26T20:16:43 IST" duration-ms="1280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirect -->
+        <test-method is-config="true" signature="setbrowser()[pri:0, instance:Tranquility.Embrace.CreateUser@217ed35e]" started-at="2022-04-26T20:16:43 IST" name="setbrowser" finished-at="2022-04-26T20:16:44 IST" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setbrowser -->
+        <test-method signature="alreayExistsEmail()[pri:4, instance:Tranquility.Embrace.CreateUser@217ed35e]" started-at="2022-04-26T20:16:44 IST" name="alreayExistsEmail" finished-at="2022-04-26T20:16:50 IST" duration-ms="5974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alreayExistsEmail -->
+        <test-method is-config="true" signature="redirect()[pri:0, instance:Tranquility.Embrace.CreateUser@217ed35e]" started-at="2022-04-26T20:16:50 IST" name="redirect" finished-at="2022-04-26T20:16:51 IST" duration-ms="1259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirect -->
+        <test-method is-config="true" signature="setbrowser()[pri:0, instance:Tranquility.Embrace.CreateUser@217ed35e]" started-at="2022-04-26T20:16:51 IST" name="setbrowser" finished-at="2022-04-26T20:16:51 IST" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setbrowser -->
+        <test-method signature="emptyPassword()[pri:5, instance:Tranquility.Embrace.CreateUser@217ed35e]" started-at="2022-04-26T20:16:51 IST" name="emptyPassword" finished-at="2022-04-26T20:16:57 IST" duration-ms="5944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPassword -->
+        <test-method is-config="true" signature="redirect()[pri:0, instance:Tranquility.Embrace.CreateUser@217ed35e]" started-at="2022-04-26T20:16:57 IST" name="redirect" finished-at="2022-04-26T20:16:59 IST" duration-ms="1348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirect -->
+        <test-method is-config="true" signature="endtest()[pri:0, instance:Tranquility.Embrace.CreateUser@217ed35e]" started-at="2022-04-26T20:16:59 IST" name="endtest" finished-at="2022-04-26T20:16:59 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtest -->
+      </class> <!-- Tranquility.Embrace.CreateUser -->
     </test> <!-- Command line test -->
-  </suite> <!-- APITestClasses.MotionTest -->
+  </suite> <!-- Tranquility.Embrace.CreateUser -->
 </testng-results>

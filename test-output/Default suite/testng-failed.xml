@@ -3,22 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tranquility.Embrace.login">
-        <methods>
-          <include name="InValidlogin"/>
-          <include name="NhLogin"/>
-          <include name="closing"/>
-          <include name="setbrowser"/>
-          <include name="Vadlidlogin"/>
-        </methods>
-      </class> <!-- Tranquility.Embrace.login -->
-      <class name="Tranquility.Embrace.EditSensor">
+      <class name="Tranquility.Embrace.CreateUser">
         <methods>
           <include name="setbrowser"/>
-          <include name="editsensor"/>
+          <include name="alreayExistsEmail"/>
+          <include name="emptyPassword"/>
+          <include name="redirect"/>
+          <include name="stratup"/>
           <include name="endtest"/>
         </methods>
-      </class> <!-- Tranquility.Embrace.EditSensor -->
+      </class> <!-- Tranquility.Embrace.CreateUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

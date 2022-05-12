@@ -1,58 +1,317 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="3" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-25T09:41:34 IST" name="Failed suite [Default suite]" finished-at="2022-04-25T09:42:21 IST" duration-ms="46300">
+  <suite started-at="2022-05-11T13:38:20 IST" name="Default suite" finished-at="2022-05-11T13:39:24 IST" duration-ms="63643">
     <groups>
       <group name="Regression">
-        <method signature="EditSensor.editsensor()[pri:0, instance:Tranquility.Embrace.EditSensor@4d5650ae]" name="editsensor" class="Tranquility.Embrace.EditSensor"/>
-        <method signature="login.InValidlogin()[pri:3, instance:Tranquility.Embrace.login@60bd273d]" name="InValidlogin" class="Tranquility.Embrace.login"/>
-        <method signature="login.NhLogin()[pri:2, instance:Tranquility.Embrace.login@60bd273d]" name="NhLogin" class="Tranquility.Embrace.login"/>
-        <method signature="login.Vadlidlogin()[pri:1, instance:Tranquility.Embrace.login@60bd273d]" name="Vadlidlogin" class="Tranquility.Embrace.login"/>
+        <method signature="CreateUser.alreayExistsEmail()[pri:4, instance:Tranquility.Embrace.CreateUser@73e9cf30]" name="alreayExistsEmail" class="Tranquility.Embrace.CreateUser"/>
+        <method signature="CreateUser.emptyPassword()[pri:5, instance:Tranquility.Embrace.CreateUser@73e9cf30]" name="emptyPassword" class="Tranquility.Embrace.CreateUser"/>
+        <method signature="CreateUser.invalidFirstname()[pri:1, instance:Tranquility.Embrace.CreateUser@73e9cf30]" name="invalidFirstname" class="Tranquility.Embrace.CreateUser"/>
+        <method signature="CreateUser.invalidconfirmemail()[pri:3, instance:Tranquility.Embrace.CreateUser@73e9cf30]" name="invalidconfirmemail" class="Tranquility.Embrace.CreateUser"/>
+        <method signature="CreateUser.invalidemail()[pri:2, instance:Tranquility.Embrace.CreateUser@73e9cf30]" name="invalidemail" class="Tranquility.Embrace.CreateUser"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="EditSensor.editsensor()[pri:0, instance:Tranquility.Embrace.EditSensor@4d5650ae]" name="editsensor" class="Tranquility.Embrace.EditSensor"/>
-        <method signature="login.NhLogin()[pri:2, instance:Tranquility.Embrace.login@60bd273d]" name="NhLogin" class="Tranquility.Embrace.login"/>
-        <method signature="login.Vadlidlogin()[pri:1, instance:Tranquility.Embrace.login@60bd273d]" name="Vadlidlogin" class="Tranquility.Embrace.login"/>
+        <method signature="CreateUser.invalidFirstname()[pri:1, instance:Tranquility.Embrace.CreateUser@73e9cf30]" name="invalidFirstname" class="Tranquility.Embrace.CreateUser"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2022-04-25T09:41:34 IST" name="Default test(failed)" finished-at="2022-04-25T09:42:21 IST" duration-ms="46300">
-      <class name="Tranquility.Embrace.EditSensor">
-        <test-method is-config="true" signature="setbrowser()[pri:0, instance:Tranquility.Embrace.EditSensor@4d5650ae]" started-at="2022-04-25T09:41:53 IST" name="setbrowser" finished-at="2022-04-25T09:41:57 IST" duration-ms="4381" status="PASS">
+    <test started-at="2022-05-11T13:38:20 IST" name="Default test" finished-at="2022-05-11T13:39:24 IST" duration-ms="63643">
+      <class name="Tranquility.Embrace.CreateUser">
+        <test-method is-config="true" signature="stratup()[pri:0, instance:Tranquility.Embrace.CreateUser@73e9cf30]" started-at="2022-05-11T13:37:49 IST" name="stratup" finished-at="2022-05-11T13:38:20 IST" duration-ms="30574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stratup -->
+        <test-method is-config="true" signature="setbrowser()[pri:0, instance:Tranquility.Embrace.CreateUser@73e9cf30]" started-at="2022-05-11T13:38:20 IST" name="setbrowser" finished-at="2022-05-11T13:38:21 IST" duration-ms="689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setbrowser -->
-        <test-method signature="editsensor()[pri:0, instance:Tranquility.Embrace.EditSensor@4d5650ae]" started-at="2022-04-25T09:41:57 IST" name="editsensor" finished-at="2022-04-25T09:42:20 IST" duration-ms="23071" status="PASS">
+        <test-method signature="invalidFirstname()[pri:1, instance:Tranquility.Embrace.CreateUser@73e9cf30]" started-at="2022-05-11T13:38:21 IST" name="invalidFirstname" finished-at="2022-05-11T13:38:23 IST" duration-ms="1886" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- editsensor -->
-        <test-method is-config="true" signature="endtest()[pri:0, instance:Tranquility.Embrace.EditSensor@4d5650ae]" started-at="2022-04-25T09:42:20 IST" name="endtest" finished-at="2022-04-25T09:42:21 IST" duration-ms="78" status="PASS">
+        </test-method> <!-- invalidFirstname -->
+        <test-method is-config="true" signature="redirect()[pri:0, instance:Tranquility.Embrace.CreateUser@73e9cf30]" started-at="2022-05-11T13:38:23 IST" name="redirect" finished-at="2022-05-11T13:38:24 IST" duration-ms="1240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirect -->
+        <test-method is-config="true" signature="setbrowser()[pri:0, instance:Tranquility.Embrace.CreateUser@73e9cf30]" started-at="2022-05-11T13:38:24 IST" name="setbrowser" finished-at="2022-05-11T13:38:24 IST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setbrowser -->
+        <test-method signature="invalidemail()[pri:2, instance:Tranquility.Embrace.CreateUser@73e9cf30]" started-at="2022-05-11T13:38:24 IST" name="invalidemail" finished-at="2022-05-11T13:38:26 IST" duration-ms="1615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidemail -->
+        <test-method is-config="true" signature="redirect()[pri:0, instance:Tranquility.Embrace.CreateUser@73e9cf30]" started-at="2022-05-11T13:38:26 IST" name="redirect" finished-at="2022-05-11T13:38:27 IST" duration-ms="1149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirect -->
+        <test-method is-config="true" signature="setbrowser()[pri:0, instance:Tranquility.Embrace.CreateUser@73e9cf30]" started-at="2022-05-11T13:38:27 IST" name="setbrowser" finished-at="2022-05-11T13:38:28 IST" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setbrowser -->
+        <test-method signature="invalidconfirmemail()[pri:3, instance:Tranquility.Embrace.CreateUser@73e9cf30]" started-at="2022-05-11T13:38:28 IST" name="invalidconfirmemail" finished-at="2022-05-11T13:38:33 IST" duration-ms="5565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidconfirmemail -->
+        <test-method is-config="true" signature="redirect()[pri:0, instance:Tranquility.Embrace.CreateUser@73e9cf30]" started-at="2022-05-11T13:38:33 IST" name="redirect" finished-at="2022-05-11T13:38:35 IST" duration-ms="1401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirect -->
+        <test-method is-config="true" signature="setbrowser()[pri:0, instance:Tranquility.Embrace.CreateUser@73e9cf30]" started-at="2022-05-11T13:38:35 IST" name="setbrowser" finished-at="2022-05-11T13:38:35 IST" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setbrowser -->
+        <test-method signature="alreayExistsEmail()[pri:4, instance:Tranquility.Embrace.CreateUser@73e9cf30]" started-at="2022-05-11T13:38:35 IST" name="alreayExistsEmail" finished-at="2022-05-11T13:39:04 IST" duration-ms="28460" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//li[normalize-space()='Email ID already exist.']"}
+  (Session info: headless chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRITI-PC', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\PRITI\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31952267f728e5d485874d12a0ee4572
+*** Element info: {Using=xpath, value=//li[normalize-space()='Email ID already exist.']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[normalize-space()='Email ID already exist.']"}
+  (Session info: headless chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRITI-PC', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\PRITI\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31952267f728e5d485874d12a0ee4572
+*** Element info: {Using=xpath, value=//li[normalize-space()='Email ID already exist.']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy14.getText(Unknown Source)
+at pomdesign.CreateUserPage.ErrormsgAlreadyExists(CreateUserPage.java:129)
+at Tranquility.Embrace.CreateUser.alreayExistsEmail(CreateUser.java:115)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alreayExistsEmail -->
+        <test-method is-config="true" signature="redirect()[pri:0, instance:Tranquility.Embrace.CreateUser@73e9cf30]" started-at="2022-05-11T13:39:04 IST" name="redirect" finished-at="2022-05-11T13:39:24 IST" duration-ms="20015" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Back to List']"}
+  (Session info: headless chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRITI-PC', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\PRITI\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31952267f728e5d485874d12a0ee4572
+*** Element info: {Using=xpath, value=//a[normalize-space()='Back to List']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Back to List']"}
+  (Session info: headless chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRITI-PC', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\PRITI\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31952267f728e5d485874d12a0ee4572
+*** Element info: {Using=xpath, value=//a[normalize-space()='Back to List']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at pomdesign.CreateUserPage.backClick(CreateUserPage.java:168)
+at Tranquility.Embrace.CreateUser.redirect(CreateUser.java:138)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirect -->
+        <test-method is-config="true" signature="setbrowser()[pri:0, instance:Tranquility.Embrace.CreateUser@73e9cf30]" started-at="2022-05-11T13:39:24 IST" name="setbrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1652256564062" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setbrowser -->
+        <test-method signature="emptyPassword()[pri:5, instance:Tranquility.Embrace.CreateUser@73e9cf30]" started-at="2022-05-11T13:39:24 IST" name="emptyPassword" finished-at="2022-05-11T13:39:24 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Back to List']"}
+  (Session info: headless chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRITI-PC', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\PRITI\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31952267f728e5d485874d12a0ee4572
+*** Element info: {Using=xpath, value=//a[normalize-space()='Back to List']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Back to List']"}
+  (Session info: headless chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRITI-PC', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\PRITI\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31952267f728e5d485874d12a0ee4572
+*** Element info: {Using=xpath, value=//a[normalize-space()='Back to List']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at pomdesign.CreateUserPage.backClick(CreateUserPage.java:168)
+at Tranquility.Embrace.CreateUser.redirect(CreateUser.java:138)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPassword -->
+        <test-method is-config="true" signature="redirect()[pri:0, instance:Tranquility.Embrace.CreateUser@73e9cf30]" started-at="2022-05-11T13:39:24 IST" name="redirect" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1652256564078" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirect -->
+        <test-method is-config="true" signature="endtest()[pri:0, instance:Tranquility.Embrace.CreateUser@73e9cf30]" started-at="2022-05-11T13:39:24 IST" name="endtest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1652256564186" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endtest -->
-      </class> <!-- Tranquility.Embrace.EditSensor -->
-      <class name="Tranquility.Embrace.login">
-        <test-method is-config="true" signature="setbrowser()[pri:0, instance:Tranquility.Embrace.login@60bd273d]" started-at="2022-04-25T09:41:04 IST" name="setbrowser" finished-at="2022-04-25T09:41:34 IST" duration-ms="30099" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setbrowser -->
-        <test-method signature="Vadlidlogin()[pri:1, instance:Tranquility.Embrace.login@60bd273d]" started-at="2022-04-25T09:41:34 IST" name="Vadlidlogin" finished-at="2022-04-25T09:41:47 IST" duration-ms="12606" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Vadlidlogin -->
-        <test-method signature="NhLogin()[pri:2, instance:Tranquility.Embrace.login@60bd273d]" started-at="2022-04-25T09:41:47 IST" name="NhLogin" finished-at="2022-04-25T09:41:51 IST" duration-ms="4080" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- NhLogin -->
-        <test-method signature="InValidlogin()[pri:3, instance:Tranquility.Embrace.login@60bd273d]" started-at="2022-04-25T09:41:51 IST" name="InValidlogin" finished-at="2022-04-25T09:41:53 IST" duration-ms="2016" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InValidlogin -->
-        <test-method is-config="true" signature="closing()[pri:0, instance:Tranquility.Embrace.login@60bd273d]" started-at="2022-04-25T09:42:21 IST" name="closing" finished-at="2022-04-25T09:42:21 IST" duration-ms="66" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closing -->
-      </class> <!-- Tranquility.Embrace.login -->
-    </test> <!-- Default test(failed) -->
-  </suite> <!-- Failed suite [Default suite] -->
+      </class> <!-- Tranquility.Embrace.CreateUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

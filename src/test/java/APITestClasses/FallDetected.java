@@ -29,5 +29,4 @@ public class FallDetected extends RequestData {
 		response = request.when().post(type.TranquilityResourse()).then().extract().response();
 		assertEquals(response.getStatusCode(), 201);
 	}
-
 }
